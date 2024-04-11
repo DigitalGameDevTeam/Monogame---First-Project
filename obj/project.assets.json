@@ -108,11 +108,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\João\\Desktop\\Challenge007-Frogger\\Challenge007.csproj",
+      "projectUniqueName": "C:\\Users\\João\\Desktop\\Monogame---First-Project\\Challenge007.csproj",
       "projectName": "Challenge007",
-      "projectPath": "C:\\Users\\João\\Desktop\\Challenge007-Frogger\\Challenge007.csproj",
+      "projectPath": "C:\\Users\\João\\Desktop\\Monogame---First-Project\\Challenge007.csproj",
       "packagesPath": "C:\\Users\\João\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\João\\Desktop\\Challenge007-Frogger\\obj\\",
+      "outputPath": "C:\\Users\\João\\Desktop\\Monogame---First-Project\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
