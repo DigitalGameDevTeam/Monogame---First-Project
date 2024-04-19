@@ -7,20 +7,22 @@ Grupo ::
  ->> João Ribeiro // 27926
  ->> Martim Moreira // 22354
  ->> Gonçalo Veloso // 22348
-
+_________________________________________________________________________________
 INDICE - 
 
 1 - Descrição
 
-2 - Condição de Derrota
+2 - Condição de Derrota e Colisões
 
-3 - Condição de Vitoria
+3 - Condição de Vitória
 
-4 - Geração do Mapa
+4 - Movimento do Sapo
+
+5 - Geração do Mapa
 
 _________________________________________________________________________________
 
- 1 - Descrição ::
+ 1 - Descrição 
 
 O jogo chama-se Frogger.
 
