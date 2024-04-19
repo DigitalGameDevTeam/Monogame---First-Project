@@ -1,10 +1,10 @@
 # Monogame---First-Project
 
-Repositório Original ::
+Repositório Original :
 
  ->> https://github.com/LubiiiCZ/DevQuickie.git
 
-Grupo :: 
+Grupo :
 
  ->> João Ribeiro // 27926
  
