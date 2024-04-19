@@ -18,8 +18,6 @@ INDICE -
 
 4 - Geração do Mapa
 
-
-
 _________________________________________________________________________________
 
  1 - Descrição ::
@@ -34,6 +32,8 @@ Na primeira parte o jogador tem que desviar de quadrados que passam na tela a al
 Na segunda parte, o jogador não pode ter a sua totalidade da hitbox em cima da água.
 
 A condição de vitória deste jogo será o jogador conseguir chegar ao fim do nível.
+
+_________________________________________________________________________________
 
 2 - Como o jogador Perde
 
@@ -57,6 +57,8 @@ O jogo está constantemente a realizar as verificações de colisões. Se estas 
 
 ![3](https://github.com/DigitalGameDevTeam/Monogame---First-Project/assets/148542897/1b9eb292-160d-4c26-bd9e-b6794ed5989b)
 
+_________________________________________________________________________________
+
 3 - Condição de Vitória :
 
 A condição de vitória em Frogger ocorre quando o sapo alcança o fim da tela. Quando o sapo chega a essa área, o jogo dá “freeze” e o jogador é considerado vitorioso. Isso é verificado durante a atualização do jogo, onde uma função verifica se o sapo está na área final. Se sim, o jogo muda para o estado de fim do jogo, indicando que o jogador venceu.
@@ -70,6 +72,8 @@ Esta linha de código verifica se o sapo (GM.Froggy) está na área “InFinish�
 ![5](https://github.com/DigitalGameDevTeam/Monogame---First-Project/assets/148542897/2adb0098-cdf6-48d9-a17e-dc70841d4d51)
 
 Se o sapo estiver na área de chegada, o estado do jogo é alterado para EndState, indicando que o jogador venceu.
+
+_________________________________________________________________________________
 
 4 - Movimento
 
@@ -94,6 +98,8 @@ Se o sapo estiver sobre um tronco flutuante, o movimento é sincronizado com o m
 Isso permite que o jogador se mova pelo ambiente do jogo de forma dinâmica e interativa.
 
 ![7](https://github.com/DigitalGameDevTeam/Monogame---First-Project/assets/148542897/8275572b-b030-45c4-8b80-974f77189733) ![8](https://github.com/DigitalGameDevTeam/Monogame---First-Project/assets/148542897/4e20a11d-ba43-4d05-be87-f088c72c955b)
+
+_________________________________________________________________________________
 
  5 - Criação do Mapa : 
 	
