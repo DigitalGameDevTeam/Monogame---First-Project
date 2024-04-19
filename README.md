@@ -1,17 +1,12 @@
 # Monogame---First-Project
 
 Repositório Original :
-
- ->> https://github.com/LubiiiCZ/DevQuickie.git
+ -> https://github.com/LubiiiCZ/DevQuickie.git
 
 Grupo :
-
- ->> João Ribeiro // 27926
- 
- ->> Martim Moreira // 22354
- 
- ->> Gonçalo Veloso // 22348
- 
+ -> João Ribeiro // 27926
+ -> Martim Moreira // 22354
+ -> Gonçalo Veloso // 22348
 _________________________________________________________________________________
 INDICE - 
 
@@ -27,7 +22,7 @@ INDICE -
 
 _________________________________________________________________________________
 
- 1 - Descrição 
+ 1 - Descrição :
 
 O jogo chama-se Frogger.
 
@@ -42,7 +37,7 @@ A condição de vitória deste jogo será o jogador conseguir chegar ao fim do n
 
 _________________________________________________________________________________
 
-2 - Como o jogador Perde
+2 - Como o jogador Perde e Colisões :
 
 No jogo o jogador pode perder de duas formas: ser atingido por um carro ou cair no rio.
 
@@ -82,7 +77,7 @@ Se o sapo estiver na área de chegada, o estado do jogo é alterado para EndStat
 
 _________________________________________________________________________________
 
-4 - Movimento
+4 - Movimento do Sapo :
 
 No jogo, o movimento é gerido através de entrada do teclado e atualizações regulares de estado.
 
@@ -116,14 +111,14 @@ ________________________________________________________________________________
 
 _river = new(posiçãoX, Globals.TileSize * posiçãoY, Globals.WindowSize.X, Globals.TileSize * altura);
 
-posiçãoX ->> posição horizontal do objeto, como todos são definidos como 0 indica que todos começam no lado esquerdo do tabuleiro 
+posiçãoX -> posição horizontal do objeto, como todos são definidos como 0 indica que todos começam no lado esquerdo do tabuleiro 
 
-posiçãoY ->> posição vertical do objeto 
+posiçãoY -> posição vertical do objeto 
 
 Globals.WindowSize.X ->> comprimento horizontal do objeto, neste caso o objeto está definido para se
 estender por toda a tela
 
-altura ->> altura do objeto 
+altura -> altura do objeto 
 
 
 esta função é responsável por definir a o tamanho e a posição das formas que definem o cenário e a função “Draw” é responsável por dar a essas doramas uma cor 
@@ -146,9 +141,9 @@ A classe “ThingsManager.cs” é responsável por criar todos os objetos perte
    Add(new(new(Globals.TileSize * X, Globals.TileSize * Y, Globals.TileSize * Z, Globals.TileSize),     
         velocidade, new(direção X, direção Y), Color.color))
 	
-X e Y ->> são a posição da peça 
+X e Y -> são a posição da peça 
 
-Z ->> é o tamanho da peça 
+Z -> é o tamanho da peça 
 
 velocidade ->> é a velocidade com que a peça de movimenta
 
